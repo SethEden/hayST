@@ -1,0 +1,31 @@
+{
+  "name": "hexios",
+  "version": "0.0.1",
+  "description": "A haystacks based API testing automation plugin used for building API testing automation frameworks.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SethEden/Hexios.git"
+  },
+  "keywords": [
+    "API",
+    "Testing",
+    "Test",
+    "QA",
+    "QE",
+    "QC",
+    "Automation",
+    "Factory",
+    "no-code",
+    "axios"
+  ],
+  "author": "Seth Hollingsead",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SethEden/Hexios/issues"
+  },
+  "homepage": "https://github.com/SethEden/Hexios#readme"
+}
