@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><CommandsAliases>
+  <system>
+    <Command Name="buildApiActionFunction" Aliases="" Description="Build the function to execute a browser action."/>
+    <Command Name="buildApiActionFunction" Aliases="" Description="Build the function to execute a browser action."/>
+  </system>
+</CommandsAliases>

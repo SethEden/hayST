@@ -20,3 +20,31 @@ import loggers from '../executrix/loggers.js';
 import hayConst from '@haystacks/constants';
 import path from 'path';
 
+const {bas, msg, wrd} = hayConst;
+const baseFileName = path.basename(import.meta.url, path.extname(import.meta.url));
+// plugins.hexios.controllers.chiefWorkflow.
+const namespacePrefix = wrd.cplugins + bas.cDot + plg.cpluginName + bas.cDot + wrd.ccontrollers + bas.cDot + baseFileName + bas.cDot;
+
+/**
+ * @function setupWorkflows
+ * @description Sets up all the plugin workflows data.
+ * @param {string} pluginWorkflowsPath The path of the workflows files for the plugin layer.
+ * @return {object} A JSON object that contains all of the workflows data loaded and parsed from the specified path.
+ * @author Seth Hollingsead
+ * @date 2023/04/24
+ */
+async function setupWorkflows(pluginWorkflowsPath) {
+  // let functionName = setupWorkflows.name;
+  // await loggers.consoleLog(namespacePrefix + functionName, msg.cBEGIN_Function);
+  // pluginWorkflowsPath is:
+  // await loggers.consoleLog(namespacePrefix + functionName, msg.cpluginWorkflowsPathIs + pluginWorkflowsPath);
+  let returnData = {};
+  returnData = await chiefData.loadWorkflowsData(pluginWorkflowsPath);
+  // await loggers.consoleLog(namespacePrefix + functionName, msg.creturnDataIs + JSON.stringify(returnData));
+  // await loggers.consoleLog(namespacePrefix + functionName, msg.cEND_Function);
+  return returnData;
+}
+
+export default {
+  setupWorkflows
+};
