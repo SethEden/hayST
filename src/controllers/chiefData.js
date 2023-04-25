@@ -15,13 +15,13 @@
 // Internal imports
 import dataBroker from '../brokers/dataBroker.js';
 import * as plg from '../constants/plugin.constants.js';
-import loggers from '../executrix';
+import loggers from '../executrix/loggers.js';
 // External imports
 import hayConst from '@haystacks/constants';
 import path from 'path';
 
 const {bas, msg, sys, wrd} = hayConst;
-const baseFileName = path.basename(import.meta.url, path.extname(impot.meta.url));
+const baseFileName = path.basename(import.meta.url, path.extname(import.meta.url));
 // plugins.hexios.controllers.chiefData.
 const namespacePrefix = wrd.cplugins + bas.cDot + plg.cpluginName + bas.cDot + wrd.ccontrollers + bas.cDot + baseFileName + bas.cDot;
 

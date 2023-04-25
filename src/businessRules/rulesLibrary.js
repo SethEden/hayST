@@ -25,7 +25,7 @@ import hayConst from '@haystacks/constants';
 import path from 'path';
 
 const {bas, msg, sys, wrd} = hayConst;
-const baseFileName = path.basename(import.meta.url, path.extname(impot.meta.url));
+const baseFileName = path.basename(import.meta.url, path.extname(import.meta.url));
 // plugins.hexios.businessRules.rulesLibrary.
 const namespacePrefix = wrd.cplugins + bas.cDot + plg.cpluginName + bas.cDot + sys.cbusinessRules + bas.cDot + baseFileName + bas.cDot;
 

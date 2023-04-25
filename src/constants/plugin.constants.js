@@ -10,7 +10,7 @@
 
 // External imports
 import hayConst from '@haystacks/constants';
-const {bas, num, sys, wrd} = hayConst;
+const {bas, num, phn, sys, wrd} = hayConst;
 
 // plugin constants
 export const cpluginName = wrd.chex + phn.cios; // hexios

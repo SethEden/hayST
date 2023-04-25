@@ -10,7 +10,7 @@
 
 // External imports
 import hayConst from '@haystacks/constants';
-const {bas, num, wrd} = hayConst;
+const {bas, gen, num, wrd} = hayConst;
 
 // ********************************
 // hexios rules in order
