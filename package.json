@@ -5,7 +5,10 @@
   "main": "./src/main.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "node ./build/buildRelease/src/buildRelease.js",
+    "vers": "standard-version -m \"chore(release) version %s \"",
+    "docs": "jsdoc -c jsdoc.json"
   },
   "repository": {
     "type": "git",
