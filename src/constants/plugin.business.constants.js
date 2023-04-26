@@ -15,4 +15,4 @@ const {bas, gen, num, wrd} = hayConst;
 // ********************************
 // hexios rules in order
 // ********************************
-export const cmapHeaderMetaDataToBusinessRule = wrd.cmap + gen.cApi + wrd.cMetaData + wrd.cTo + wrd.cBusiness + wrd.cRule; // mapHeaderMetaDataToBusinessRule
+export const cmapHeaderMetaDataToBusinessRule = wrd.cmap + wrd.cHeader + wrd.cMetaData + wrd.cTo + wrd.cBusiness + wrd.cRule; // mapHeaderMetaDataToBusinessRule

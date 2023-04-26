@@ -13,7 +13,7 @@ import hayConst from '@haystacks/constants';
 const {bas, num, phn, sys, wrd} = hayConst;
 
 // plugin constants
-export const cpluginName = wrd.chex + phn.cios; // hexios
+export const cpluginName = phn.chex + phn.cios; // hexios
 export const cPluginDevPath = bas.cForwardSlash + wrd.csrc + bas.cForwardSlash; // /src/
 export const cPluginProdPath = bas.cForwardSlash + wrd.cbin + bas.cForwardSlash; // /bin/
 export const cResourcesCommonPath = wrd.cresources + bas.cForwardSlash; // resources/
