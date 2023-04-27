@@ -10,12 +10,12 @@
 
 // External imports
 import hayConst from '@haystacks/constants';
-const {bas, sys, wrd} = hayConst;
+const {bas, phn, sys, wrd} = hayConst;
 
 export const cExpectedActualFrameworkDevName = wrd.chay + wrd.cstacks + bas.cDash + wrd.casync; // haystacks-async
 export const cExpectedActualFrameworkProdName = bas.cAt + wrd.chay + wrd.cstacks + bas.cForwardSlash + wrd.casync; // @haystacks/async
-export const cExpectedActualPluginDevName = wrd.chay + bas.cd + bas.cDash + bas.cca + bas.cf; // hayd-caf
-export const cExpectedActualPluginProdName = wrd.chay + bas.cd + bas.cDash + bas.cca + bas.cf; // hayd-caf
+export const cExpectedActualPluginDevName = phn.chex + phn.cios; // hexios
+export const cExpectedActualPluginProdName = phn.chex + phn.cios; // hexios
 export const cApplicationName = wrd.cbuild + wrd.cRelease; // buildRelease
 export const cAppDevPath = bas.cForwardSlash + wrd.csrc + bas.cForwardSlash; // /src/
 export const cAppProdPath = bas.cForwardSlash + wrd.cbin + bas.cForwardSlash; // /bin/

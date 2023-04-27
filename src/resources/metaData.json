@@ -1,5 +1,5 @@
 {
-  "name": "hexios",
-  "version": "0.0.1",
-  "description": "A haystacks based API testing automation plugin used for building API testing automation frameworks, wrapper for the axios library."
+  "Name": "hexios",
+  "Version": "0.0.1",
+  "Description": "A haystacks based API testing automation plugin used for building API testing automation frameworks, wrapper for the axios library."
 }

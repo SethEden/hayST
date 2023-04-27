@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SethEden/Hexios.git"
+    "url": "git+https://github.com/SethEden/hexios.git"
   },
   "keywords": [
     "API",
@@ -29,9 +29,9 @@
   "author": "Seth Hollingsead",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/SethEden/Hexios/issues"
+    "url": "https://github.com/SethEden/hexios/issues"
   },
-  "homepage": "https://github.com/SethEden/Hexios#readme",
+  "homepage": "https://github.com/SethEden/hexios#readme",
   "dependencies": {
     "@haystacks/async": "^0.2.10",
     "@haystacks/constants": "^0.2.10",
