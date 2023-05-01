@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><PluginWorkflows>
+  <debug>
+    <commandsBlob>
+      <commands>
+        <hexiosCommands>
+          <Workflow Name="hexiosCommandsEnable" Value="changeConfigSetting debugSetting.plugins.hexios.commandsBlob.commands.hexiosCommands true"/>
+          <Workflow Name="hexiosCommandsDisable" Value="changeConfigSetting debugSetting.plugins.hexios.commandsBlob.commands.hexiosCommands false"/>
+          <Workflow Name="buildApiActionFunctionEnable" Value="changeConfigSetting debugSetting.plugins.hayD-CAF.commandsBlob.commands.hexiosCommands.buildApiActionFunction true"/>
+          <Workflow Name="buildApiActionFunctionDisable" Value="changeConfigSetting debugSetting.plugins.hayD-CAF.commandsBlob.commands.hexiosCommands.buildApiActionFunction false"/>
+        </hexiosCommands>
+      </commands>
+    </commandsBlob>
+  </debug>
+</PluginWorkflows>

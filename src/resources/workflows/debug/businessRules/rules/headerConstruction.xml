@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><PluginWorkflows>
+  <debug>
+    <businessRules>
+      <rules>
+        <hexiosRules>
+          <Workflow Name="headerConstructionEnable" Value="changeConfigSetting debugSetting.plugins.hexios.businessRules.rules.headerConstruction true"/>
+          <Workflow Name="selectorConstructionDisable" Value="changeConfigSetting debugSetting.plugins.hexios.businessRules.rules.headerConstruction false"/>
+          <Workflow Name="mapHeaderMetaDataToBusinessRuleEnable" Value="changeConfigSetting debugSetting.plugins.hexios.businessRules.rules.headerConstruction.mapHeaderMetaDataToBusinessRule true"/>
+          <Workflow Name="mapHeaderMetaDataToBusinessRuleDisable" Value="changeConfigSetting debugSetting.plugins.hexios.businessRules.rules.headerConstruction.mapHeaderMetaDataToBusinessRule false"/>
+        </hexiosRules>
+      </rules>
+    </businessRules>
+  </debug>
+</PluginWorkflows>

@@ -1,0 +1,45 @@
+{
+  "name": "hexios",
+  "version": "0.0.1",
+  "description": "A haystacks based API testing automation plugin used for building API testing automation frameworks, wrapper for the axios library.",
+  "main": "./src/main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "node ./build/buildRelease/src/buildRelease.js",
+    "vers": "standard-version -m \"chore(release) version %s \"",
+    "docs": "jsdoc -c jsdoc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SethEden/hexios.git"
+  },
+  "keywords": [
+    "API",
+    "Testing",
+    "Test",
+    "QA",
+    "QE",
+    "QC",
+    "Automation",
+    "Factory",
+    "no-code",
+    "axios"
+  ],
+  "author": "Seth Hollingsead",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SethEden/hexios/issues"
+  },
+  "homepage": "https://github.com/SethEden/hexios#readme",
+  "dependencies": {
+    "@haystacks/async": "^0.2.10",
+    "@haystacks/constants": "^0.2.10",
+    "dotenv": "^16.0.3",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "jsdoc": "^4.0.2",
+    "standard-version": "^9.5.0"
+  }
+}
