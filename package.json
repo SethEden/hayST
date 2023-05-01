@@ -1,6 +1,6 @@
 {
   "name": "hexios",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A haystacks based API testing automation plugin used for building API testing automation frameworks, wrapper for the axios library.",
   "main": "./src/main.js",
   "type": "module",
